@@ -17,11 +17,7 @@ html::-webkit-scrollbar {
 /* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
-  background-image: url('images/art.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+  transition: background-color 600000s 0s, color 600000s 0s;
 
 .underline-magical {
   @apply bg-gradient-to-r from-primary-500 to-primary-500 bg-no-repeat 
